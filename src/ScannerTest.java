@@ -5,8 +5,10 @@ public class ScannerTest {
 	public static void main(String[] args) {
 		
       Scanner scanner = new Scanner(System.in);
-      int a = scanner.nextInt();
-      System.out.println("value = " + a);
+      System.out.println("Enter a character");
+      //int a = scanner.nextInt();
+       char c = scanner.next().charAt(0);
+       System.out.println("value = " + c);
 
 	}
 
