@@ -23,6 +23,10 @@ public class BankingApplication {
 		
 		void withdraw(int amount) {
 			
+			if(amount != 0) {
+				balance = balance - amount;
+			}
+			
 		}
 	}
 
