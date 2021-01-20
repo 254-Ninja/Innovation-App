@@ -32,7 +32,10 @@ public class BankingApplication {
 		
 	void getPreviousTransaction() {
 		 if (previousTransaction > 0) {
-			 
+			 System.out.println("Deposited: " + previousTransaction);
+		 }
+		 else if (previousTransaction <0) {
+			System.out.println("withdraw: " + Math.abs(previousTransaction)); 
 		 }
 	}
 	}
