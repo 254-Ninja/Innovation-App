@@ -5,6 +5,13 @@ public class BankingApplication {
 		// TODO Auto-generated method stub
 
 	}
+	
+	class BankAccount{
+		
+		int balance;
+		int previousTransaction;
+		String customerName;
+	}
 
 }
 
