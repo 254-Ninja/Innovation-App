@@ -11,6 +11,11 @@ public class BankingApplication {
 		int balance;
 		int previousTransaction;
 		String customerName;
+		String customerId;
+		
+		void deposit(int amount) {
+			
+		}
 	}
 
 }
