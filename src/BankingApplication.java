@@ -14,7 +14,11 @@ public class BankingApplication {
 		String customerId;
 		
 		void deposit(int amount) {
-			
+			 
+			if(amount != 0) {
+				balance = balance + amount;
+				previousTransaction = amount;
+			}
 		}
 	}
 
