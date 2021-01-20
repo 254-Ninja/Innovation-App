@@ -20,6 +20,10 @@ public class BankingApplication {
 				previousTransaction = amount;
 			}
 		}
+		
+		void withdraw(int amount) {
+			
+		}
 	}
 
 }
