@@ -25,9 +25,16 @@ public class BankingApplication {
 			
 			if(amount != 0) {
 				balance = balance - amount;
-			}
+				previousTransaction = amount;
+							}
 			
 		}
+		
+	void getPreviousTransaction() {
+		 if (previousTransaction > 0) {
+			 
+		 }
+	}
 	}
 
 }
