@@ -63,6 +63,13 @@ public class BankingApplication {
 		System.out.println("D. Previous transaction");
 		System.out.println("E. Exixt");
 		
+		do {
+			
+			System.out.println("============================================");
+			System.out.println("Enter an option");
+			System.out.println("============================================");
+			System.out.println("\n");
+		}	
 	}
 	}
 
