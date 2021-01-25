@@ -15,6 +15,8 @@ public class BankingApplication {
 		
 		BankAccount(String cname,String cid){
 			
+			customerName = cname;
+			customerId = cid;
 		}
 		
 		
