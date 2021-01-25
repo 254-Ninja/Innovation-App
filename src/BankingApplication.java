@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class BankingApplication {
 
@@ -50,10 +51,14 @@ public class BankingApplication {
 	}
 	void showMenu() {
 		
+		char option='\0';
+		Scanner scanner = new Scanner(System.in);
+		
+		
 	}
 	}
 
-}
+} 
 
 
 
