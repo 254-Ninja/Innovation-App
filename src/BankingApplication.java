@@ -54,6 +54,9 @@ public class BankingApplication {
 		char option='\0';
 		Scanner scanner = new Scanner(System.in);
 		
+		System.out.println("welcome "+customerName);
+		System.out.println("Your ID is "+customerId);
+		System.out.println("\n");
 		
 	}
 	}
