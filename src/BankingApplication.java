@@ -13,6 +13,11 @@ public class BankingApplication {
 		String customerName;
 		String customerId;
 		
+		BankAccount(String cname,String cid){
+			
+		}
+		
+		
 		void deposit(int amount) {
 			 
 			if(amount != 0) {
