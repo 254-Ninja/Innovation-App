@@ -83,9 +83,10 @@ public class BankingApplication {
 				System.out.println("========================================");
 				System.out.println("Enter amount to deposit");
 				System.out.println("========================================");
-				int account = scanner.nextInt();
+				int amount = scanner.nextInt();
 				deposit(amount);
 				System.out.println("\n");
+				break;
 			}
 		}	
 	}
