@@ -94,7 +94,14 @@ public class BankingApplication {
 				System.out.println("========================================");
 				int amount2 = scanner.nextInt();
 				withdraw(amount2);
-				System.out.println()"\n";
+				System.out.println("\n");
+				break;
+				
+			case 'D':
+				System.out.println("=========================================");
+				getPreviousTransaction();
+				System.out.println("=========================================");
+				System.out.println("\n");
 				break;
 				
 			}
