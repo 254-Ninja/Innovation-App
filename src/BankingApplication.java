@@ -78,6 +78,12 @@ public class BankingApplication {
 				System.out.println("========================================");
 				System.out.println("\n");
 				break;
+				
+			case 'B':
+				System.out.println("========================================");
+				System.out.println("Enter amount to deposit");
+				System.out.println("========================================");
+				System.out.println("\n");
 			}
 		}	
 	}
