@@ -87,6 +87,16 @@ public class BankingApplication {
 				deposit(amount);
 				System.out.println("\n");
 				break;
+				
+			case 'C':
+				System.out.println("========================================");
+				System.out.println("Enter amount you want to withdraw");
+				System.out.println("========================================");
+				int amount2 = scanner.nextInt();
+				withdraw(amount2);
+				System.out.println()"\n";
+				break;
+				
 			}
 		}	
 	}
