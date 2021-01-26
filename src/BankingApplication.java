@@ -65,13 +65,19 @@ public class BankingApplication {
 		
 		do {
 			
-			System.out.println("============================================");
+			System.out.println("===================================================");
 			System.out.println("Enter an option");
-			System.out.println("============================================");
+			System.out.println("===================================================");
 			System.out.println("\n");
 			
 			switch(option) {
 			
+			case 'A':
+				System.out.println("========================================");
+				System.out.println("Balance = "+balance);
+				System.out.println("========================================");
+				System.out.println("\n");
+				break;
 			}
 		}	
 	}
