@@ -69,6 +69,10 @@ public class BankingApplication {
 			System.out.println("Enter an option");
 			System.out.println("============================================");
 			System.out.println("\n");
+			
+			switch(option) {
+			
+			}
 		}	
 	}
 	}
