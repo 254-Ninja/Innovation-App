@@ -104,6 +104,10 @@ public class BankingApplication {
 				System.out.println("\n");
 				break;
 				
+			default:
+				System.out.println("Invalid option!! Enter again");
+				break;
+				
 			}
 		}	
 	}
