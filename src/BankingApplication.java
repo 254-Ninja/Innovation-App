@@ -65,43 +65,47 @@ public class BankingApplication {
 		
 		do {
 			
-			System.out.println("===================================================");
+			System.out.println("*******************************************");
 			System.out.println("Enter an option");
-			System.out.println("===================================================");
+			System.out.println("*******************************************");
 			System.out.println("\n");
 			
 			switch(option) {
 			
 			case 'A':
-				System.out.println("========================================");
+				System.out.println("*******************************************");
 				System.out.println("Balance = "+balance);
-				System.out.println("========================================");
+				System.out.println("*******************************************");
 				System.out.println("\n");
 				break;
 				
 			case 'B':
-				System.out.println("========================================");
+				System.out.println("*******************************************");
 				System.out.println("Enter amount to deposit");
-				System.out.println("========================================");
+				System.out.println("*******************************************");
 				int amount = scanner.nextInt();
 				deposit(amount);
 				System.out.println("\n");
 				break;
 				
 			case 'C':
-				System.out.println("========================================");
+				System.out.println("*******************************************");
 				System.out.println("Enter amount you want to withdraw");
-				System.out.println("========================================");
+				System.out.println("*******************************************");
 				int amount2 = scanner.nextInt();
 				withdraw(amount2);
 				System.out.println("\n");
 				break;
 				
 			case 'D':
-				System.out.println("=========================================");
+				System.out.println("*******************************************");
 				getPreviousTransaction();
-				System.out.println("=========================================");
+				System.out.println("*******************************************");
 				System.out.println("\n");
+				break;
+				
+			case 'E':
+				System.out.println("*******************************************");
 				break;
 				
 			default:
