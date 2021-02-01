@@ -111,6 +111,8 @@ public class BankingApplication {
 			}
 		}	
 		while(option != 'E');
+		System.out.println("Thank you for using our services");
+		
 	}
 	}
 
